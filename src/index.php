@@ -1,9 +1,9 @@
 <?php
 
 echo 'Docker commands'. PHP_EOL;
-echo '==============='. PHP_EOL;
+echo '<hr>';
 
-echo "docker build -t friendlyname .  # Create image using this directory's Dockerfile". PHP_EOL;
+echo "docker build -t friendlyname .  # Create image using this directory's Dockerfile". <br/>;
 echo "docker run -p 4000:80 friendlyname  # Run \"friendlyname\" mapping port 4000 to 80". PHP_EOL;
 echo "docker run -d -p 4000:80 friendlyname         # Same thing, but in detached mode". PHP_EOL;
 echo "docker container ls                                # List all running containers". PHP_EOL;
