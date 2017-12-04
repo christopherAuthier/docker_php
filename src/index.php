@@ -20,7 +20,7 @@ echo "docker tag <image> username/repository:tag  # Tag <image> for upload to re
 echo "docker push username/repository:tag            # Upload tagged image to registry". PHP_EOL;
 echo "docker run username/repository:tag                   # Run image from a registry". PHP_EOL;
 
-<hr>
+echo '<hr>';
 
 echo "docker stack ls                                            # List stacks or apps". PHP_EOL;
 echo "docker stack deploy -c <composefile> <appname>  # Run the specified Compose file". PHP_EOL;
@@ -31,7 +31,7 @@ echo "docker container ls -q                                      # List contain
 echo "docker stack rm <appname>                             # Tear down an application". PHP_EOL;
 echo "docker swarm leave --force      # Take down a single node swarm from the manager". PHP_EOL;
 
-<hr>
+echo '<hr>';
 
 echo "docker-machine create --driver virtualbox myvm1 # Create a VM (Mac, Win7, Linux)". PHP_EOL;
 echo "docker-machine create -d hyperv --hyperv-virtual-switch \"myswitch\" myvm1 # Win10". PHP_EOL;
